@@ -1,0 +1,44 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.delete-todo-btn {
+  background-color: red;
+  height: 45px;
+  color: white;
+  border: none;
+  width: 100px;
+}
+
+.create-todo {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.create-todo-input {
+  height: 40px;
+  width: 300px;
+}
+
+.create-todo-btn {
+  height: 40px;
+  width: 70px;
+  background-color: green;
+  margin-left: 5px;
+  color: white;
+  border: none;
+}
